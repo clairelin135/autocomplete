@@ -1,0 +1,32 @@
+.Background {
+  position: absolute;
+  padding: 1px;
+  background-color: #F9F9F9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px 300px;
+}
+
+.Searchbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 0px 15px;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 40px;
+  line-height: 90%;
+}
+
+input:focus {
+  outline: 1px solid #FF8159;
+}
