@@ -18,15 +18,59 @@
   margin-top: 30px;
   font-weight: 400;
   font-family: inherit;
+  letter-spacing: 1px;
 }
 
 h1 {
   font-weight: 700;
   letter-spacing: 3px;
   font-size: 40px;
-  line-height: 90%;
+  line-height: 95%;
 }
 
 input:focus {
   outline: 1px solid #FF8159;
+}
+
+.SearchWrapper {
+  border: 1px solid #D8D8D8;
+  max-height: 300px;
+  overflow-y: scroll;
+  width: 100%;
+  background-color: #EBF4FF;
+}
+
+.SearchResults {
+   width: 100%;
+   display: table;
+}
+
+.SearchEntryWrapper {
+  height: 50px;
+  box-sizing: border-box;
+  display: table-row;
+}
+
+.SearchEntry:hover {
+  background-color: #CFE5FF;
+}
+
+.SearchEntry {
+  display: table-cell;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+h2 {
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  color: #808080;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  color: #808080;
+  font-style: italic;
 }
