@@ -12,7 +12,8 @@ This application also requires the latest versions of:
 
 ## Getting started
 ### Running your application
-```git clone git@github.com:clairelin135/autocomplete.git
+```
+git clone git@github.com:clairelin135/autocomplete.git
 cd autocomplete
 npm install
 ```
