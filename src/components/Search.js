@@ -12,6 +12,7 @@ class Search extends Component {
     this.updateInputValue = this.updateInputValue.bind(this);
     this.renderSearchEntries = this.renderSearchEntries.bind(this);
     this.updateSearchResults = this.updateSearchResults.bind(this);
+    this.updateInput = this.updateInput.bind(this);
   }
 
   /**
