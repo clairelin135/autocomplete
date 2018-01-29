@@ -5,6 +5,7 @@ Autocomplete is a small React application that performs autocomplete searching b
 ## React
 This application is currently running
 - React 16.2.0
+
 This application also requires the latest versions of:
 - Node
 - `npm` (or `yarn`)
